@@ -1313,7 +1313,7 @@ canvas {
 
 body {
   background: #fff;
-  color: #4a4a4a;
+  color: #000;
   line-height: 1.5rem;
   font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;
   min-width: 315px;
@@ -1338,7 +1338,7 @@ p {
 }
 
 .ampstart-accent {
-  color: #003f93
+  color: #8b0000
 }
 
 #content:target {
@@ -1402,7 +1402,7 @@ a,a:active,a:visited {
   word-wrap: normal;
   vertical-align: middle;
   cursor: pointer;
-  background-color: #000;
+  background-color: #8b0000;
   color: #fff;
   border: 1px solid #fff
 }
@@ -1413,12 +1413,12 @@ a,a:active,a:visited {
 
 .ampstart-btn-secondary {
   background-color: #fff;
-  color: #000;
-  border: 1px solid #000
+  color: #8b0000;
+  border: 1px solid #8b0000
 }
 
 .ampstart-btn-secondary:visited {
-  color: #000
+  color: #8b0000
 }
 
 .ampstart-btn:active .ampstart-btn:focus {
@@ -1437,7 +1437,7 @@ a,a:active,a:visited {
 }
 
 .ampstart-dropcap:first-letter {
-  color: #000;
+  color: #8b0000;
   font-size: 3rem;
   font-weight: 700;
   margin-left: -2px
@@ -1445,7 +1445,7 @@ a,a:active,a:visited {
 
 .ampstart-pullquote {
   border: none;
-  border-left: 4px solid #000;
+  border-left: 4px solid #8b0000;
   font-size: 1.5rem;
   padding-left: 1.5rem
 }
@@ -1480,7 +1480,7 @@ a,a:active,a:visited {
 }
 
 .ampstart-dropdown>section>header {
-  background-color: #000;
+  background-color: #8b0000;
   border: 0;
   color: #fff
 }
@@ -1489,7 +1489,7 @@ a,a:active,a:visited {
   display: inline-block;
   content: "+";
   padding: 0 0 0 1.5rem;
-  color: #003f93
+  color: #8b0000
 }
 
 .ampstart-dropdown>[expanded]>header:after {
@@ -1501,8 +1501,8 @@ a,a:active,a:visited {
 }
 
 .ampstart-dropdown-item {
-  background-color: #000;
-  color: #003f93;
+  background-color: #8b0000;
+  color: #8b0000;
   opacity: .9
 }
 
@@ -1511,15 +1511,15 @@ a,a:active,a:visited {
 }
 
 .ampstart-footer {
-  background-color: #fff;
-  color: #000;
+  background-color: #8b0000;
+  color: #fff;
   font-size: .75rem;
   padding-top: 5rem;
   padding-bottom: 5rem
 }
 
 .ampstart-footer .ampstart-icon {
-  fill: #000
+  fill: #fff
 }
 
 .ampstart-footer .ampstart-social-follow li:last-child {
@@ -1533,7 +1533,7 @@ a,a:active,a:visited {
 .ampstart-fullpage-hero-heading-text,.ampstart-image-fullpage-hero .ampstart-image-credit {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  background: #000;
+  background: #8b0000;
   padding: 0 1rem .2rem
 }
 
@@ -1626,7 +1626,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-input>label {
-  color: #003f93;
+  color: #8b0000;
   pointer-events: none;
   text-align: left;
   font-size: .875rem;
@@ -1687,7 +1687,7 @@ amp-carousel .ampstart-image-with-caption {
   position: absolute;
   bottom: 0;
   left: 45%;
-  background: #003f93;
+  background: #8b0000;
   -webkit-transition: .2s;
   transition: .2s;
   -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
@@ -1730,7 +1730,7 @@ amp-carousel .ampstart-image-with-caption {
   zoom: 2;
   top: 0;
   bottom: 0;
-  color: #003f93
+  color: #8b0000
 }
 
 .ampstart-input-chk,.ampstart-input-radio {
@@ -1745,7 +1745,7 @@ amp-carousel .ampstart-image-with-caption {
   appearance: none;
   width: 20px;
   height: 20px;
-  border: 1px solid #003f93;
+  border: 1px solid #8b0000;
   vertical-align: middle;
   margin-right: .5rem;
   text-align: center
@@ -1781,7 +1781,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-input input[type=checkbox]:checked:after {
-  background-color: #003f93;
+  background-color: #8b0000;
   color: #fff;
   content: "✓"
 }
@@ -1801,7 +1801,7 @@ amp-carousel .ampstart-image-with-caption {
 .ampstart-input input[type=radio]:checked:after {
   content: "";
   font-size: 3rem;
-  background-color: #003f93
+  background-color: #8b0000
 }
 
 .ampstart-input>label,_:-ms-lang(x) {
@@ -1904,7 +1904,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-nav-dropdown .ampstart-dropdown-item {
-  color: #003f93
+  color: #8b0000
 }
 
 .ampstart-sidebar {
@@ -1915,7 +1915,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-sidebar .ampstart-icon {
-  fill: #003f93
+  fill: #8b0000
 }
 
 .ampstart-sidebar-header {
@@ -1940,12 +1940,12 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-related-article-section .ampstart-heading {
-  color: #4a4a4a;
+  color: #000;
   font-weight: 400
 }
 
 .ampstart-related-article-readmore {
-  color: #000;
+  color: #8b0000;
   letter-spacing: 0
 }
 
@@ -2001,11 +2001,11 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-social-box>amp-social-share {
-  background-color: #000
+  background-color: #8b0000
 }
 
 .ampstart-icon {
-  fill: #003f93
+  fill: #8b0000
 }
 
 .alp-page section {
@@ -2027,7 +2027,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-headerbar-title {
-  color: #4a4a4a
+  color: #000
 }
 
 .ampstart-headerbar-fixed {
@@ -2054,4 +2054,8 @@ amp-carousel .ampstart-image-with-caption {
     flex: 1;
     position: static
   }
+}
+
+amp-call-tracking.ampstart-btn {
+  border: 0
 }
